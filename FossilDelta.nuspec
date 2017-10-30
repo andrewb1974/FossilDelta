@@ -15,7 +15,10 @@
     <tags>delta patch binary</tags>
   </metadata>
   <files>
-    <file src="*.cs;Source/Properties/AssemblyInfo.cs" target="Source" />
-    <file src="Source/bin/Release/Delta.dll" target="lib/net35" />
+    <file src="Source\bin\Release\net45\Delta.dll" target="lib\net45\" />
+    <file src="Source\bin\Release\net462\Delta.dll" target="lib\net462\" />
+    <file src="Source\bin\Release\netcoreapp1.0\Delta.dll" target="lib\netcoreapp1.0\" />
+    <file src="Source\bin\Release\netcoreapp1.1\Delta.dll" target="lib\netcoreapp1.1\" />
+    <file src="Source\bin\Release\netcoreapp2.0\Delta.dll" target="lib\netcoreapp2.0\" />
   </files>
 </package>
